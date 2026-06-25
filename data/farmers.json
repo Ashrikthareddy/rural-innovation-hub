@@ -1,0 +1,112 @@
+[
+  {
+    "id": "farmer-1",
+    "name": "Ravi Kumar",
+    "village": "Nalgonda",
+    "state": "Telangana",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+    "bio": "A passionate farmer with over 20 years of experience in dryland farming. Ravi has been transforming traditional farming with low-cost solar technology and sustainable methods that have helped his entire village.",
+    "joinedDate": "2024-01-15",
+    "innovations": ["innovation-1", "innovation-2", "innovation-7", "innovation-14"],
+    "totalLikes": 78
+  },
+  {
+    "id": "farmer-2",
+    "name": "Suresh Reddy",
+    "village": "Kurnool",
+    "state": "Andhra Pradesh",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
+    "bio": "Water conservation expert who pioneered drip irrigation techniques suitable for small farms with minimal investment. His systems have been replicated across 200+ farms in Andhra Pradesh.",
+    "joinedDate": "2024-02-01",
+    "innovations": ["innovation-3", "innovation-8", "innovation-12"],
+    "totalLikes": 54
+  },
+  {
+    "id": "farmer-3",
+    "name": "Mahesh Patel",
+    "village": "Anand",
+    "state": "Gujarat",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+    "bio": "Tool innovation specialist who has designed several multi-purpose farming tools that reduce labor costs by up to 60%. A local blacksmith turned farmer-engineer.",
+    "joinedDate": "2024-02-20",
+    "innovations": ["innovation-4", "innovation-9", "innovation-13"],
+    "totalLikes": 43
+  },
+  {
+    "id": "farmer-4",
+    "name": "Lakshmi Devi",
+    "village": "Mandya",
+    "state": "Karnataka",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+    "bio": "Champion of women-led agricultural innovation. Lakshmi focuses on water management solutions and has helped 150+ families in the Mandya district access clean irrigation water.",
+    "joinedDate": "2024-03-05",
+    "innovations": ["innovation-5", "innovation-10", "innovation-15"],
+    "totalLikes": 62
+  },
+  {
+    "id": "farmer-5",
+    "name": "Ramesh Yadav",
+    "village": "Varanasi",
+    "state": "Uttar Pradesh",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+    "bio": "Grain processing innovator who developed low-cost equipment to help small farmers reduce post-harvest losses. His grain cleaning machine is now used in 12 villages.",
+    "joinedDate": "2024-03-15",
+    "innovations": ["innovation-6", "innovation-11"],
+    "totalLikes": 38
+  },
+  {
+    "id": "farmer-6",
+    "name": "Priya Sharma",
+    "village": "Nashik",
+    "state": "Maharashtra",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
+    "bio": "Organic farming advocate and agri-entrepreneur who pioneered natural pest control methods using locally grown herbs. Her techniques have eliminated chemical pesticide use on over 300 acres across Nashik district.",
+    "joinedDate": "2024-04-10",
+    "innovations": [],
+    "totalLikes": 29
+  },
+  {
+    "id": "farmer-7",
+    "name": "Arjun Singh",
+    "village": "Amritsar",
+    "state": "Punjab",
+    "image": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?w=400&q=80",
+    "bio": "Veteran wheat and rice farmer who developed low-cost straw management techniques. Arjun's field burning alternatives have improved air quality and added ₹12,000 per acre in extra income through biochar production.",
+    "joinedDate": "2024-04-25",
+    "innovations": [],
+    "totalLikes": 47
+  },
+  {
+    "id": "farmer-8",
+    "name": "Meena Kumari",
+    "village": "Jaipur",
+    "state": "Rajasthan",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80",
+    "bio": "Desert farming specialist who developed water-harvesting earthworks (tanka) that collect rainwater in arid regions. Her techniques have brought irrigation to 80+ dry-land farms in the Thar Desert belt.",
+    "joinedDate": "2024-05-08",
+    "innovations": [],
+    "totalLikes": 56
+  },
+  {
+    "id": "farmer-9",
+    "name": "Gopal Nair",
+    "village": "Thrissur",
+    "state": "Kerala",
+    "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&q=80",
+    "bio": "Coconut and spice farmer who integrated duck-fish-rice polyculture systems on small wetland plots. His integrated farming model generates four income streams simultaneously and has been adopted by 60 families in Thrissur.",
+    "joinedDate": "2024-05-20",
+    "innovations": [],
+    "totalLikes": 71
+  },
+  {
+    "id": "farmer-10",
+    "name": "Savitri Devi",
+    "village": "Muzaffarpur",
+    "state": "Bihar",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80",
+    "bio": "Lychee orchardist and self-taught plant breeder who developed frost-resistant seedling nurseries using low-cost polythene tunnels. Her nursery supplies saplings to 400+ farmers annually at a fraction of commercial nursery prices.",
+    "joinedDate": "2024-06-01",
+    "innovations": [],
+    "totalLikes": 33
+  }
+]

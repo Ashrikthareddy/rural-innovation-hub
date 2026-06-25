@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="fieldBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1565c0"/><stop offset="60%" stop-color="#1976d2"/><stop offset="100%" stop-color="#0d47a1"/></linearGradient>
+  <linearGradient id="landG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#388e3c"/><stop offset="30%" stop-color="#2e7d32"/><stop offset="100%" stop-color="#6d4c41"/></linearGradient>
+  <linearGradient id="steelBike" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef5350"/><stop offset="100%" stop-color="#b71c1c"/></linearGradient>
+  <linearGradient id="wheelG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#616161"/><stop offset="100%" stop-color="#212121"/></linearGradient>
+  <linearGradient id="waterG2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#40c4ff"/><stop offset="100%" stop-color="#0277bd"/></linearGradient>
+  <filter id="shBike"><feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.4"/></filter>
+</defs>
+<rect width="800" height="520" fill="url(#fieldBg)"/>
+<!-- Sky clouds -->
+<ellipse cx="200" cy="70" rx="100" ry="38" fill="#1e88e5" opacity="0.4"/>
+<ellipse cx="150" cy="78" rx="70" ry="30" fill="#1e88e5" opacity="0.3"/>
+<ellipse cx="600" cy="55" rx="90" ry="36" fill="#1e88e5" opacity="0.35"/>
+<!-- Ground -->
+<rect y="360" width="800" height="160" fill="url(#landG)"/>
+<line x1="0" y1="374" x2="800" y2="374" stroke="#33691e" stroke-width="2"/>
+<!-- Water canal -->
+<rect x="0" y="390" width="160" height="30" rx="8" fill="#0277bd" opacity="0.4"/>
+<!-- Ground shadow for bicycle -->
+<ellipse cx="350" cy="372" rx="200" ry="16" fill="#000" opacity="0.25"/>
+<!-- BICYCLE FRAME -->
+<!-- Rear wheel -->
+<circle cx="200" cy="340" r="78" fill="url(#wheelG)" filter="url(#shBike)"/>
+<circle cx="200" cy="340" r="74" fill="none" stroke="#424242" stroke-width="6"/>
+<circle cx="200" cy="340" r="60" fill="none" stroke="#757575" stroke-width="2.5"/>
+<circle cx="200" cy="340" r="14" fill="#424242"/>
+<circle cx="200" cy="340" r="10" fill="#616161"/>
+<!-- Rear wheel spokes -->
+<g stroke="#9e9e9e" stroke-width="1.5">
+  <line x1="200" y1="266" x2="200" y2="326"/><line x1="200" y1="354" x2="200" y2="414"/>
+  <line x1="126" y1="340" x2="186" y2="340"/><line x1="214" y1="340" x2="274" y2="340"/>
+  <line x1="148" y1="288" x2="191" y2="330"/><line x1="209" y1="350" x2="252" y2="392"/>
+  <line x1="252" y1="288" x2="209" y2="330"/><line x1="148" y1="392" x2="191" y2="350"/>
+</g>
+<!-- Front wheel -->
+<circle cx="500" cy="340" r="78" fill="url(#wheelG)" filter="url(#shBike)"/>
+<circle cx="500" cy="340" r="74" fill="none" stroke="#424242" stroke-width="6"/>
+<circle cx="500" cy="340" r="60" fill="none" stroke="#757575" stroke-width="2.5"/>
+<circle cx="500" cy="340" r="14" fill="#424242"/>
+<circle cx="500" cy="340" r="10" fill="#616161"/>
+<!-- Front wheel spokes -->
+<g stroke="#9e9e9e" stroke-width="1.5">
+  <line x1="500" y1="266" x2="500" y2="326"/><line x1="500" y1="354" x2="500" y2="414"/>
+  <line x1="426" y1="340" x2="486" y2="340"/><line x1="514" y1="340" x2="574" y2="340"/>
+  <line x1="448" y1="288" x2="491" y2="330"/><line x1="509" y1="350" x2="552" y2="392"/>
+  <line x1="552" y1="288" x2="509" y2="330"/><line x1="448" y1="392" x2="491" y2="350"/>
+</g>
+<!-- Frame: chain stay, seat stay, top tube, down tube, seat tube -->
+<g fill="url(#steelBike)" filter="url(#shBike)">
+  <!-- Chain stay -->
+  <polygon points="200,340 340,300 350,312 208,352"/>
+  <!-- Seat stay -->
+  <polygon points="200,330 268,200 280,206 212,336"/>
+  <!-- Top tube -->
+  <polygon points="270,200 440,192 440,204 270,212"/>
+  <!-- Down tube -->
+  <polygon points="440,200 350,310 356,322 448,208"/>
+  <!-- Seat tube -->
+  <polygon points="332,295 350,190 362,190 350,300"/>
+</g>
+<!-- Fork -->
+<polygon points="440,200 500,340 508,338 448,198" fill="url(#steelBike)"/>
+<polygon points="440,200 492,340 500,340 448,198" fill="#c62828"/>
+<!-- Seat -->
+<ellipse cx="284" cy="186" rx="42" ry="12" fill="#212121" stroke="#424242" stroke-width="2"/>
+<rect x="282" y="186" width="10" height="20" rx="3" fill="#424242"/>
+<!-- Handlebars -->
+<rect x="432" y="168" width="10" height="38" rx="4" fill="#424242"/>
+<rect x="416" y="168" width="40" height="10" rx="5" fill="#616161"/>
+<rect x="416" y="165" width="12" height="16" rx="4" fill="#212121"/>
+<rect x="448" y="165" width="12" height="16" rx="4" fill="#212121"/>
+<!-- Pedal/crank -->
+<circle cx="350" cy="300" r="16" fill="#424242" stroke="#616161" stroke-width="2"/>
+<line x1="334" y1="300" x2="318" y2="322" stroke="#616161" stroke-width="6" stroke-linecap="round"/>
+<rect x="308" y="318" width="32" height="9" rx="4" fill="#9e9e9e"/>
+<!-- PUMP MECHANISM attached to crank/wheel -->
+<!-- Pump cylinder -->
+<rect x="195" y="256" width="24" height="88" rx="8" fill="#607d8b" stroke="#455a64" stroke-width="2" filter="url(#shBike)"/>
+<rect x="199" y="258" width="8" height="84" rx="4" fill="#90a4ae" opacity="0.4"/>
+<!-- Pump piston rod connecting to crank -->
+<line x1="207" y1="256" x2="340" y2="300" stroke="#78909c" stroke-width="8" stroke-linecap="round"/>
+<line x1="207" y1="256" x2="340" y2="300" stroke="#b0bec5" stroke-width="3" stroke-linecap="round"/>
+<!-- Pump output pipe going to field -->
+<path d="M207,342 Q180,360 120,368 Q80,372 60,385" fill="none" stroke="#607d8b" stroke-width="10" stroke-linecap="round"/>
+<path d="M207,342 Q180,360 120,368 Q80,372 60,385" fill="none" stroke="#90a4ae" stroke-width="4" stroke-linecap="round"/>
+<!-- Water stream from output -->
+<path d="M55,385 Q40,398 20,415" fill="none" stroke="url(#waterG2)" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+<!-- Water droplets -->
+<ellipse cx="18" cy="418" rx="5" ry="7" fill="#40c4ff" opacity="0.75"/>
+<ellipse cx="30" cy="428" rx="4" ry="5" fill="#29b6f6" opacity="0.65"/>
+<ellipse cx="8" cy="432" rx="4" ry="6" fill="#4fc3f7" opacity="0.7"/>
+<!-- Label -->
+<rect x="530" y="200" width="250" height="62" rx="7" fill="#000" fill-opacity="0.65"/>
+<text x="655" y="223" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">Bicycle-Powered Water Pump</text>
+<text x="655" y="245" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#80cbc4">Irrigation Tech · Est. ₹1,200</text>
+</svg>

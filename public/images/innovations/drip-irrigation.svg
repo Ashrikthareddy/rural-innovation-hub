@@ -1,0 +1,121 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a3a1a"/><stop offset="100%" stop-color="#2e5c1a"/></linearGradient>
+  <linearGradient id="soilG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6b4226"/><stop offset="100%" stop-color="#3e2212"/></linearGradient>
+  <linearGradient id="tankBd" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#37474f"/><stop offset="50%" stop-color="#546e7a"/><stop offset="100%" stop-color="#37474f"/></linearGradient>
+  <linearGradient id="waterIn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#29b6f6"/><stop offset="100%" stop-color="#01579b"/></linearGradient>
+  <radialGradient id="tankShine" cx="30%" cy="25%" r="55%"><stop offset="0%" stop-color="#fff" stop-opacity="0.25"/><stop offset="100%" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <filter id="shd"><feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.35"/></filter>
+</defs>
+<rect width="800" height="520" fill="url(#bg1)"/>
+<!-- Sky with subtle gradient -->
+<rect width="800" height="290" fill="#1b3a5c" opacity="0.7"/>
+<!-- Sun -->
+<circle cx="700" cy="68" r="42" fill="#ffd54f" opacity="0.85"/>
+<g stroke="#ffd54f" stroke-width="2" stroke-linecap="round" opacity="0.5">
+  <line x1="700" y1="18" x2="700" y2="8"/><line x1="700" y1="118" x2="700" y2="128"/>
+  <line x1="650" y1="68" x2="640" y2="68"/><line x1="750" y1="68" x2="760" y2="68"/>
+  <line x1="665" y1="33" x2="658" y2="26"/><line x1="735" y1="103" x2="742" y2="110"/>
+  <line x1="735" y1="33" x2="742" y2="26"/><line x1="665" y1="103" x2="658" y2="110"/>
+</g>
+<!-- Ground -->
+<rect y="360" width="800" height="160" fill="url(#soilG)"/>
+<line x1="0" y1="374" x2="800" y2="374" stroke="#5c3010" stroke-width="1.5"/>
+<!-- Plant rows -->
+<g>
+  <!-- Row of 5 plants -->
+  <g transform="translate(100,0)">
+    <rect x="0" y="310" width="10" height="55" rx="3" fill="#4e342e"/>
+    <ellipse cx="5" cy="310" rx="30" ry="38" fill="#2e7d32"/>
+    <ellipse cx="5" cy="295" rx="22" ry="28" fill="#388e3c"/>
+    <ellipse cx="5" cy="285" rx="14" ry="18" fill="#43a047"/>
+  </g>
+  <g transform="translate(220,0)">
+    <rect x="0" y="310" width="10" height="55" rx="3" fill="#4e342e"/>
+    <ellipse cx="5" cy="310" rx="30" ry="38" fill="#2e7d32"/>
+    <ellipse cx="5" cy="295" rx="22" ry="28" fill="#388e3c"/>
+    <ellipse cx="5" cy="285" rx="14" ry="18" fill="#43a047"/>
+  </g>
+  <g transform="translate(340,0)">
+    <rect x="0" y="310" width="10" height="55" rx="3" fill="#4e342e"/>
+    <ellipse cx="5" cy="310" rx="30" ry="38" fill="#2e7d32"/>
+    <ellipse cx="5" cy="295" rx="22" ry="28" fill="#388e3c"/>
+    <ellipse cx="5" cy="285" rx="14" ry="18" fill="#43a047"/>
+  </g>
+  <g transform="translate(460,0)">
+    <rect x="0" y="310" width="10" height="55" rx="3" fill="#4e342e"/>
+    <ellipse cx="5" cy="310" rx="30" ry="38" fill="#2e7d32"/>
+    <ellipse cx="5" cy="295" rx="22" ry="28" fill="#388e3c"/>
+    <ellipse cx="5" cy="285" rx="14" ry="18" fill="#43a047"/>
+  </g>
+  <g transform="translate(580,0)">
+    <rect x="0" y="310" width="10" height="55" rx="3" fill="#4e342e"/>
+    <ellipse cx="5" cy="310" rx="30" ry="38" fill="#2e7d32"/>
+    <ellipse cx="5" cy="295" rx="22" ry="28" fill="#388e3c"/>
+    <ellipse cx="5" cy="285" rx="14" ry="18" fill="#43a047"/>
+  </g>
+</g>
+<!-- Tank elevated on stand -->
+<rect x="62" y="168" width="26" height="120" rx="4" fill="#455a64"/>
+<rect x="106" y="168" width="26" height="120" rx="4" fill="#455a64"/>
+<!-- Tank diagonal braces -->
+<line x1="62" y1="288" x2="134" y2="168" stroke="#546e7a" stroke-width="5" stroke-linecap="round"/>
+<line x1="134" y1="288" x2="62" y2="168" stroke="#546e7a" stroke-width="5" stroke-linecap="round"/>
+<!-- Tank body -->
+<ellipse cx="100" cy="145" rx="70" ry="24" fill="#455a64"/>
+<rect x="30" y="145" width="140" height="130" fill="url(#tankBd)" filter="url(#shd)"/>
+<ellipse cx="100" cy="275" rx="70" ry="24" fill="#37474f"/>
+<ellipse cx="100" cy="275" rx="68" ry="22" fill="#455a64"/>
+<!-- Water level -->
+<rect x="32" y="178" width="136" height="95" fill="url(#waterIn)" opacity="0.65"/>
+<rect x="32" y="178" width="136" height="8" rx="0" fill="#fff" opacity="0.18"/>
+<!-- Tank shine overlay -->
+<ellipse cx="100" cy="145" rx="70" ry="24" fill="url(#tankShine)"/>
+<ellipse cx="100" cy="145" rx="70" ry="24" fill="none" stroke="#546e7a" stroke-width="2.5"/>
+<!-- Capacity label -->
+<text x="100" y="230" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#b0bec5" font-weight="600">500 L</text>
+<!-- Main pipe from tank -->
+<rect x="92" y="288" width="18" height="30" rx="4" fill="#607d8b"/>
+<!-- Valve -->
+<rect x="84" y="310" width="34" height="14" rx="5" fill="#78909c" stroke="#546e7a" stroke-width="1.5"/>
+<rect x="100" y="305" width="7" height="12" rx="2" fill="#9e9e9e"/>
+<!-- Lateral pipe main -->
+<rect x="100" y="322" width="530" height="12" rx="5" fill="#607d8b"/>
+<!-- Sub-laterals and drip emitters -->
+<g>
+  <rect x="105" y="334" width="8" height="32" rx="3" fill="#546e7a"/>
+  <ellipse cx="109" cy="370" rx="5" ry="7" fill="#29b6f6" opacity="0.8"/>
+  <ellipse cx="107" cy="378" rx="3" ry="4" fill="#039be5" opacity="0.7"/>
+  <ellipse cx="111" cy="380" rx="3" ry="4" fill="#0288d1" opacity="0.6"/>
+
+  <rect x="225" y="334" width="8" height="32" rx="3" fill="#546e7a"/>
+  <ellipse cx="229" cy="370" rx="5" ry="7" fill="#29b6f6" opacity="0.8"/>
+  <ellipse cx="227" cy="378" rx="3" ry="4" fill="#039be5" opacity="0.7"/>
+  <ellipse cx="231" cy="380" rx="3" ry="4" fill="#0288d1" opacity="0.6"/>
+
+  <rect x="345" y="334" width="8" height="32" rx="3" fill="#546e7a"/>
+  <ellipse cx="349" cy="370" rx="5" ry="7" fill="#29b6f6" opacity="0.8"/>
+  <ellipse cx="347" cy="378" rx="3" ry="4" fill="#039be5" opacity="0.7"/>
+  <ellipse cx="351" cy="380" rx="3" ry="4" fill="#0288d1" opacity="0.6"/>
+
+  <rect x="465" y="334" width="8" height="32" rx="3" fill="#546e7a"/>
+  <ellipse cx="469" cy="370" rx="5" ry="7" fill="#29b6f6" opacity="0.8"/>
+  <ellipse cx="467" cy="378" rx="3" ry="4" fill="#039be5" opacity="0.7"/>
+  <ellipse cx="471" cy="380" rx="3" ry="4" fill="#0288d1" opacity="0.6"/>
+
+  <rect x="585" y="334" width="8" height="32" rx="3" fill="#546e7a"/>
+  <ellipse cx="589" cy="370" rx="5" ry="7" fill="#29b6f6" opacity="0.8"/>
+  <ellipse cx="587" cy="378" rx="3" ry="4" fill="#039be5" opacity="0.7"/>
+  <ellipse cx="591" cy="380" rx="3" ry="4" fill="#0288d1" opacity="0.6"/>
+</g>
+<!-- Soil moisture halos -->
+<ellipse cx="109" cy="385" rx="30" ry="12" fill="#01579b" opacity="0.18"/>
+<ellipse cx="229" cy="385" rx="30" ry="12" fill="#01579b" opacity="0.18"/>
+<ellipse cx="349" cy="385" rx="30" ry="12" fill="#01579b" opacity="0.18"/>
+<ellipse cx="469" cy="385" rx="30" ry="12" fill="#01579b" opacity="0.18"/>
+<ellipse cx="589" cy="385" rx="30" ry="12" fill="#01579b" opacity="0.18"/>
+<!-- Label -->
+<rect x="18" y="440" width="260" height="58" rx="7" fill="#000" fill-opacity="0.65"/>
+<text x="148" y="463" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#fff">Low Cost Drip Irrigation</text>
+<text x="148" y="484" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#80cbc4">Water Conservation · Est. ₹3,200</text>
+</svg>

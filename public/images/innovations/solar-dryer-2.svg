@@ -1,0 +1,109 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a2e1a"/><stop offset="100%" stop-color="#2a4a2a"/></linearGradient>
+  <linearGradient id="panelFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0a1628"/><stop offset="100%" stop-color="#0d2b50"/></linearGradient>
+  <linearGradient id="absorberG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a1a1a"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient>
+  <linearGradient id="hotAirG" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ff8f00" stop-opacity="0.6"/><stop offset="100%" stop-color="#ff8f00" stop-opacity="0"/></linearGradient>
+  <filter id="glowHot"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="800" height="520" fill="url(#bg2)"/>
+<rect width="800" height="520" fill="#111" opacity="0.4"/>
+<!-- Cross-section title background -->
+<rect width="800" height="50" fill="#000" opacity="0.5"/>
+<text x="400" y="32" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#fff" letter-spacing="1">CROSS-SECTION TECHNICAL VIEW — SOLAR DRYER</text>
+<!-- Solar glazing (transparent cover) -->
+<polygon points="60,80 680,80 680,180 60,430" fill="none" stroke="#64b5f6" stroke-width="2" stroke-dasharray="6 3"/>
+<polygon points="60,80 680,80 680,180 60,430" fill="#a8d8f0" opacity="0.12"/>
+<text x="200" y="72" font-family="Arial,sans-serif" font-size="11" fill="#64b5f6">Glass Cover (4mm tempered)</text>
+<!-- Absrober plate -->
+<polygon points="70,150 670,150 670,180 70,420" fill="url(#absorberG)"/>
+<polygon points="70,150 670,150 674,155 74,155" fill="#333"/>
+<text x="200" y="144" font-family="Arial,sans-serif" font-size="11" fill="#ef9a9a">Black Absorber Plate</text>
+<!-- Insulation layer bottom -->
+<polygon points="70,420 670,180 674,185 74,425" fill="#5d4037"/>
+<polygon points="74,425 674,185 674,210 74,450" fill="#795548"/>
+<text x="530" y="172" font-family="Arial,sans-serif" font-size="11" fill="#bcaaa4">Insulation Layer</text>
+<line x1="530" y1="175" x2="530" y2="198" stroke="#bcaaa4" stroke-width="1.2" stroke-dasharray="4 3"/>
+<!-- Drying chamber -->
+<polygon points="70,155 670,155 670,180 70,420" fill="#1e1e1e" opacity="0.7"/>
+<!-- Shelves in cross-section -->
+<line x1="75" y1="238" x2="668" y2="218" stroke="#607d8b" stroke-width="4"/>
+<line x1="75" y1="305" x2="668" y2="280" stroke="#607d8b" stroke-width="4"/>
+<line x1="75" y1="370" x2="668" y2="340" stroke="#607d8b" stroke-width="4"/>
+<!-- Air flow paths (arrows through drying channel) -->
+<g opacity="0.75">
+  <!-- Entry cool air left -->
+  <path d="M60,415 L90,395" stroke="#80cbc4" stroke-width="2.5" fill="none" marker-end="url(#arrowCool)"/>
+  <path d="M90,395 L350,298 L620,222" stroke="#ff8f00" stroke-width="2.5" fill="none" opacity="0.55"/>
+  <path d="M90,370 L350,270 L620,196" stroke="#ff8f00" stroke-width="2.5" fill="none" opacity="0.4"/>
+  <path d="M90,345 L350,246 L620,172" stroke="#ff8f00" stroke-width="2.5" fill="none" opacity="0.3"/>
+  <!-- Exit hot air right arrows -->
+  <polygon points="668,162 680,158 672,170" fill="#ff8f00" opacity="0.7"/>
+  <polygon points="668,180 680,176 672,188" fill="#ff8f00" opacity="0.55"/>
+</g>
+<!-- Sun rays entering from top -->
+<g stroke="#fdd835" stroke-width="1.8" stroke-dasharray="8 5" opacity="0.5">
+  <line x1="150" y1="82" x2="150" y2="155"/>
+  <line x1="250" y1="82" x2="250" y2="155"/>
+  <line x1="350" y1="82" x2="350" y2="155"/>
+  <line x1="450" y1="82" x2="450" y2="155"/>
+  <line x1="550" y1="82" x2="550" y2="163"/>
+  <line x1="640" y1="82" x2="640" y2="167"/>
+</g>
+<!-- Produce on shelves (side slices) -->
+<g fill="#c62828" opacity="0.75">
+  <ellipse cx="140" cy="232" rx="9" ry="6"/>
+  <ellipse cx="180" cy="231" rx="9" ry="6"/>
+  <ellipse cx="220" cy="230" rx="9" ry="6"/>
+  <ellipse cx="260" cy="229" rx="9" ry="6"/>
+  <ellipse cx="300" cy="228" rx="9" ry="6"/>
+  <ellipse cx="340" cy="227" rx="9" ry="6"/>
+  <ellipse cx="380" cy="226" rx="9" ry="6"/>
+  <ellipse cx="420" cy="225" rx="9" ry="6"/>
+  <ellipse cx="460" cy="224" rx="9" ry="6"/>
+  <ellipse cx="500" cy="223" rx="9" ry="6"/>
+</g>
+<g fill="#f9a825" opacity="0.75">
+  <ellipse cx="140" cy="299" rx="10" ry="5"/>
+  <ellipse cx="182" cy="297" rx="10" ry="5"/>
+  <ellipse cx="224" cy="295" rx="10" ry="5"/>
+  <ellipse cx="266" cy="293" rx="10" ry="5"/>
+  <ellipse cx="308" cy="291" rx="10" ry="5"/>
+  <ellipse cx="350" cy="290" rx="10" ry="5"/>
+  <ellipse cx="392" cy="288" rx="10" ry="5"/>
+  <ellipse cx="434" cy="286" rx="10" ry="5"/>
+  <ellipse cx="476" cy="284" rx="10" ry="5"/>
+</g>
+<g fill="#388e3c" opacity="0.7">
+  <ellipse cx="140" cy="365" rx="11" ry="5"/>
+  <ellipse cx="184" cy="362" rx="11" ry="5"/>
+  <ellipse cx="228" cy="359" rx="11" ry="5"/>
+  <ellipse cx="272" cy="356" rx="11" ry="5"/>
+  <ellipse cx="316" cy="354" rx="11" ry="5"/>
+  <ellipse cx="360" cy="351" rx="11" ry="5"/>
+  <ellipse cx="404" cy="348" rx="11" ry="5"/>
+  <ellipse cx="448" cy="346" rx="11" ry="5"/>
+</g>
+<!-- Temperature indicators -->
+<rect x="700" y="100" width="80" height="120" rx="6" fill="#000" fill-opacity="0.55"/>
+<text x="740" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ccc">TEMP.</text>
+<text x="740" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#ff8f00" font-weight="700">62°C</text>
+<text x="740" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ccc">Chamber</text>
+<line x1="720" y1="162" x2="760" y2="162" stroke="#333" stroke-width="1"/>
+<text x="740" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#4fc3f7" font-weight="700">28°C</text>
+<text x="740" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ccc">Ambient</text>
+<!-- Legend -->
+<rect x="700" y="240" width="85" height="100" rx="6" fill="#000" fill-opacity="0.5"/>
+<line x1="710" y1="258" x2="730" y2="258" stroke="#ff8f00" stroke-width="2.5"/>
+<text x="734" y="261" font-family="Arial,sans-serif" font-size="10" fill="#ff8f00">Hot air</text>
+<line x1="710" y1="276" x2="730" y2="276" stroke="#80cbc4" stroke-width="2.5"/>
+<text x="734" y="279" font-family="Arial,sans-serif" font-size="10" fill="#80cbc4">Cool air</text>
+<line x1="710" y1="294" x2="730" y2="294" stroke="#fdd835" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="734" y="297" font-family="Arial,sans-serif" font-size="10" fill="#fdd835">Solar ray</text>
+<line x1="710" y1="312" x2="730" y2="312" stroke="#607d8b" stroke-width="3"/>
+<text x="734" y="315" font-family="Arial,sans-serif" font-size="10" fill="#90a4ae">Shelf wire</text>
+<!-- Label card -->
+<rect x="18" y="450" width="280" height="54" rx="7" fill="#000" fill-opacity="0.62"/>
+<text x="158" y="472" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">Solar Dryer — Technical Cross-Section</text>
+<text x="158" y="492" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#fdd835">Post-Harvest Technology · Ravi Kumar</text>
+</svg>

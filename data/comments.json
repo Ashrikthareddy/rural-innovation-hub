@@ -1,0 +1,170 @@
+[
+  {
+    "id": "comment-1",
+    "innovationId": "innovation-1",
+    "userId": "farmer-2",
+    "userName": "Suresh Reddy",
+    "text": "Excellent design Ravi anna! I tried this in my farm and reduced drying time from 3 days to just one day. Very cost effective and easy to build with local materials.",
+    "createdAt": "2024-03-15"
+  },
+  {
+    "id": "comment-2",
+    "innovationId": "innovation-1",
+    "userId": "farmer-4",
+    "userName": "Lakshmi Devi",
+    "text": "This is exactly what we needed for post-harvest processing. The UV plastic sheet is available in every village, and the design is simple enough for anyone to build. Thank you for sharing!",
+    "createdAt": "2024-03-18"
+  },
+  {
+    "id": "comment-3",
+    "innovationId": "innovation-2",
+    "userId": "farmer-3",
+    "userName": "Mahesh Patel",
+    "text": "We get very erratic rainfall in Gujarat. This system helped us collect 8,000 liters last monsoon which lasted us through December. Highly recommended!",
+    "createdAt": "2024-04-02"
+  },
+  {
+    "id": "comment-4",
+    "innovationId": "innovation-3",
+    "userId": "farmer-1",
+    "userName": "Ravi Kumar",
+    "text": "Suresh anna's drip system saved my crops during the last drought season. Water usage dropped by more than half and my tomato yield actually improved. Every farmer must try this.",
+    "createdAt": "2024-04-10"
+  },
+  {
+    "id": "comment-5",
+    "innovationId": "innovation-3",
+    "userId": "farmer-3",
+    "userName": "Mahesh Patel",
+    "text": "We implemented this in Gujarat for 15 farmers in our cooperative. Water savings are around 55% and the gravity system means no pump electricity cost. Very clever engineering.",
+    "createdAt": "2024-04-12"
+  },
+  {
+    "id": "comment-6",
+    "innovationId": "innovation-4",
+    "userId": "farmer-5",
+    "userName": "Ramesh Yadav",
+    "text": "This tool saved us so much money. Earlier we needed 5 different tools costing ₹3,500 total. Now just one tool for ₹850. Mahesh bhai has done a great service for small farmers.",
+    "createdAt": "2024-04-20"
+  },
+  {
+    "id": "comment-7",
+    "innovationId": "innovation-4",
+    "userId": "farmer-2",
+    "userName": "Suresh Reddy",
+    "text": "I had our village blacksmith make 10 of these. Sold them to neighboring farmers at cost. Everyone is very happy with the quick-swap feature.",
+    "createdAt": "2024-04-22"
+  },
+  {
+    "id": "comment-8",
+    "innovationId": "innovation-5",
+    "userId": "farmer-2",
+    "userName": "Suresh Reddy",
+    "text": "Brilliant innovation Lakshmi ji! No fuel costs, no electricity bills, zero maintenance. Just pure human power. My son uses the old bicycle every morning to water the chilli crop.",
+    "createdAt": "2024-05-05"
+  },
+  {
+    "id": "comment-9",
+    "innovationId": "innovation-5",
+    "userId": "farmer-1",
+    "userName": "Ravi Kumar",
+    "text": "This is genius! We have two old bicycles lying around. Going to try building this next week. The pump unit cost is also very reasonable from the local hardware shop.",
+    "createdAt": "2024-05-08"
+  },
+  {
+    "id": "comment-10",
+    "innovationId": "innovation-6",
+    "userId": "farmer-4",
+    "userName": "Lakshmi Devi",
+    "text": "Ramesh ji, we shared your machine across 8 families in our village. Collectively cleaned 2 tonnes of wheat in one day. Incredible time and labor saving. Thank you for sharing this.",
+    "createdAt": "2024-05-20"
+  },
+  {
+    "id": "comment-11",
+    "innovationId": "innovation-7",
+    "userId": "farmer-2",
+    "userName": "Suresh Reddy",
+    "text": "Ravi anna, started my own vermicompost unit three months ago following your method. Soil quality in my chilli field has improved dramatically. The earthworms multiply naturally and the process is completely hands-off after setup.",
+    "createdAt": "2024-06-10"
+  },
+  {
+    "id": "comment-12",
+    "innovationId": "innovation-7",
+    "userId": "farmer-5",
+    "userName": "Ramesh Yadav",
+    "text": "Vermicompost from this unit outperforms any chemical fertilizer I have used. My wheat yield went up 18% and soil holds moisture much better now. Every farmer should replace at least half of chemical inputs with this.",
+    "createdAt": "2024-06-18"
+  },
+  {
+    "id": "comment-13",
+    "innovationId": "innovation-8",
+    "userId": "farmer-4",
+    "userName": "Lakshmi Devi",
+    "text": "Suresh bhai built one of these tunnels for tomatoes. Extended the season by nearly 10 weeks and protected the crop from two unseasonal rain spells. The bamboo framework is very sturdy if the arches are properly tied.",
+    "createdAt": "2024-06-25"
+  },
+  {
+    "id": "comment-14",
+    "innovationId": "innovation-9",
+    "userId": "farmer-1",
+    "userName": "Ravi Kumar",
+    "text": "This seed bank idea is so important. We lost three varieties of local sorghum from our area. Mahesh bhai's system ensures this never happens again. We started a similar bank in Nalgonda with 28 varieties.",
+    "createdAt": "2024-07-02"
+  },
+  {
+    "id": "comment-15",
+    "innovationId": "innovation-10",
+    "userId": "farmer-3",
+    "userName": "Mahesh Patel",
+    "text": "Lakshmi ji's mushroom unit is a game changer for off-season income! My wife and two sisters-in-law started three units. In one month during the rabi off-season they earned more than the entire wheat crop income.",
+    "createdAt": "2024-07-15"
+  },
+  {
+    "id": "comment-16",
+    "innovationId": "innovation-11",
+    "userId": "farmer-2",
+    "userName": "Suresh Reddy",
+    "text": "Ramesh ji's neem pesticide is better than synthetic pesticides for soft-bodied pests. I stopped using chlorpyrifos entirely on my vegetable patch since switching to this. Beneficial insects like bees and ladybugs are back in my field.",
+    "createdAt": "2024-07-22"
+  },
+  {
+    "id": "comment-17",
+    "innovationId": "innovation-12",
+    "userId": "farmer-5",
+    "userName": "Ramesh Yadav",
+    "text": "The rope pump from Suresh bhai requires almost no maintenance. We have been using one for 8 months and only replaced the rope once. Lifting water from a 6-metre well for household and kitchen garden use daily without any motor costs.",
+    "createdAt": "2024-08-05"
+  },
+  {
+    "id": "comment-18",
+    "innovationId": "innovation-13",
+    "userId": "farmer-1",
+    "userName": "Ravi Kumar",
+    "text": "Bamboo irrigation is something our grandparents used and Mahesh bhai revived it brilliantly. We have bamboo on our farm boundary that we cut every year anyway. Now those culms become our irrigation network for free!",
+    "createdAt": "2024-08-15"
+  },
+  {
+    "id": "comment-19",
+    "innovationId": "innovation-14",
+    "userId": "farmer-3",
+    "userName": "Mahesh Patel",
+    "text": "The solar jacket idea on the biogas dome is very clever engineering. Our winters drop to 8°C and normal biogas stops working. Ravi bhai's insulated solar dome keeps producing gas all 12 months. We have not bought an LPG cylinder in 14 months.",
+    "createdAt": "2024-09-05"
+  },
+  {
+    "id": "comment-20",
+    "innovationId": "innovation-14",
+    "userId": "farmer-2",
+    "userName": "Suresh Reddy",
+    "text": "Twin benefit: free cooking fuel and the best liquid bio-fertilizer for our crops. The slurry from the outlet goes directly to my drip system. This is the most complete innovation I have seen here — energy and soil health in one investment.",
+    "createdAt": "2024-09-10"
+  },
+  {
+    "id": "comment-21",
+    "innovationId": "innovation-15",
+    "userId": "farmer-5",
+    "userName": "Ramesh Yadav",
+    "text": "Lakshmi ji's oil press is pure business sense. Cold-pressed groundnut oil at ₹250/litre sells immediately in our local market. Three women SHG members now run presses and collectively earn ₹18,000 extra per month in the groundnut season.",
+    "createdAt": "2024-09-15"
+  }
+]
