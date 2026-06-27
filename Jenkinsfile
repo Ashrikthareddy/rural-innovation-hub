@@ -21,8 +21,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: "${env.GIT_BRANCH}",
-                    url: "${env.GIT_REPO}"
+                git branch: "${GIT_BRANCH}", url: "${GIT_REPO}"
             }
         }
 
@@ -40,45 +39,55 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t %DOCKER_IMAGE% .'
+                bat '''
+                docker build -t %DOCKER_IMAGE% .
+                '''
             }
         }
 
-        stage('Deploy Container') {
+        stage('Stop Old Container') {
             steps {
-                script {
+                bat '''
+                docker stop %DOCKER_CONTAINER% >nul 2>&1
+                docker rm %DOCKER_CONTAINER% >nul 2>&1
+                exit /b 0
+                '''
+            }
+        }
 
-                    // Stop old container if it exists
-                    bat '''
-                    docker stop %DOCKER_CONTAINER% 2>nul
-                    docker rm %DOCKER_CONTAINER% 2>nul
-                    '''
+        stage('Run Container') {
+            steps {
+                bat '''
+                docker run -d ^
+                --name %DOCKER_CONTAINER% ^
+                -p %APP_PORT%:3000 ^
+                --restart unless-stopped ^
+                -e NODE_ENV=production ^
+                %DOCKER_IMAGE%
+                '''
+            }
+        }
 
-                    // Start new container
-                    bat '''
-                    docker run -d ^
-                    --name %DOCKER_CONTAINER% ^
-                    -p %APP_PORT%:3000 ^
-                    --restart unless-stopped ^
-                    -e NODE_ENV=production ^
-                    %DOCKER_IMAGE%
-                    '''
-                }
+        stage('Verify Container') {
+            steps {
+                bat '''
+                docker ps
+                '''
             }
         }
     }
 
     post {
         success {
-            echo "Pipeline completed successfully."
+            echo 'SUCCESS: Application deployed successfully.'
         }
 
         failure {
-            echo "Pipeline failed."
+            echo 'FAILED: Check Jenkins console output.'
         }
 
         always {
-            echo "Finished."
+            echo 'Pipeline execution completed.'
         }
     }
 }
